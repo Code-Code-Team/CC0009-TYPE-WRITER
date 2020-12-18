@@ -1,3 +1,28 @@
+# Typist package used
+[react-typist](https://github.com/jstejada/react-typist)
+```bash yarn add react-typist```
+```bash npm install react-typist --save```
+
+## Basic Usage
+```React js
+import Typist from 'react-typist';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <Typist>
+        Animate this text.
+      </Typist>
+     
+    </div>
+  );
+}
+
+export default App;
+
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
