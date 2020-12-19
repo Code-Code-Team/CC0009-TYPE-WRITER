@@ -1,7 +1,8 @@
 # Typist package used
 [react-typist](https://github.com/jstejada/react-typist)
-```bash yarn add react-typist```
-```bash npm install react-typist --save```
+```yarn add react-typist```
+or
+```npm install react-typist --save```
 
 ## Basic Usage
 ```React js
