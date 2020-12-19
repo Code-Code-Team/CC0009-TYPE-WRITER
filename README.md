@@ -4,8 +4,9 @@
 or
 ```npm install react-typist --save```
 
-## Basic Usage
-```React js
+## Basic Usage 
+1. In Javascript
+```Javascript
 import Typist from 'react-typist';
 import './App.css';
 
@@ -22,6 +23,24 @@ function App() {
 
 export default App;
 
+```
+2. In Python
+```python
+import time
+def typing():
+    for letter in line:
+        time.sleep(0.5)
+        print(letter, end='')
+def loop():  
+    global line      
+    line ='I am student'
+    typing()
+    print('')
+    line ='Are you also student ?'
+    typing()
+    print('')
+    loop()
+loop()
 ```
 
 # Getting Started with Create React App
