@@ -26,6 +26,9 @@ function App() {
 export default App;
 
 ```
+***
+---
+
 
 # Getting Started with Create React App
 
